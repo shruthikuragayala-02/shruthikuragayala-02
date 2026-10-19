@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="470" viewBox="0 0 520 470" role="img" aria-labelledby="cdTitle cdDesc">
+  <title id="cdTitle">CampusDesk project card</title>
+  <desc id="cdDesc">College issue management and SLA tracking system</desc>
+  <defs>
+    <linearGradient id="cdBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070a17"/>
+      <stop offset="100%" stop-color="#0b1020"/>
+    </linearGradient>
+    <linearGradient id="cdBorder" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="20" y="20" width="480" height="430" rx="20" fill="url(#cdBg)" stroke="url(#cdBorder)" stroke-width="1" opacity="0.94">
+    <animate attributeName="stroke" dur="6s" repeatCount="indefinite" values="url(#cdBorder);url(#cdBorder);url(#cdBorder)"/>
+  </rect>
+  <g filter="url(#softGlow)">
+    <circle cx="450" cy="50" r="50" fill="#8b5cf6" opacity="0.10">
+      <animate attributeName="cy" values="50;80;50" dur="7s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <text x="40" y="70" fill="#f8fafc" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="20" font-weight="800">CampusDesk</text>
+  <text x="40" y="96" fill="#94a3b8" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="13" font-weight="500" line-height="1.4">College issue management and SLA tracking system. Students report campus issues and staff resolve them, with role-based access for students, staff, and admins using JWT and Spring Security.</text>
+  <text x="40" y="130" fill="#22d3ee" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="13" font-weight="700">Highlights</text>
+  <g font-family="'JetBrains Mono', Courier New, monospace" font-size="12.5" fill="#cbd5e1" text-anchor="start">
+    <text x="40" y="156">&gt;  Role-based access (students, staff, admins) via JWT + Spring Security</text>
+    <text x="40" y="182">&gt;  PostgreSQL schema with Flyway migrations; server-side status-transition validation</text>
+    <text x="40" y="208">&gt;  SLA deadline tracking, overdue detection, and audit history of ticket events</text>
+  </g>
+  <text x="40" y="244" fill="#22d3ee" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="13" font-weight="700">Tech stack</text>
+  <g transform="translate(40,268)">
+    <rect x="0" y="0" width="62" height="26" rx="13" fill="#0b1224" stroke="#22d3ee" stroke-width="1"/>
+    <text x="31" y="17" text-anchor="middle" fill="#22d3ee" font-family="'JetBrains Mono', Courier New, monospace" font-size="11" font-weight="700">Java</text>
+    <rect x="70" y="0" width="78" height="26" rx="13" fill="#0b1224" stroke="#22d3ee" stroke-width="1"/>
+    <text x="109" y="17" text-anchor="middle" fill="#22d3ee" font-family="'JetBrains Mono', Courier New, monospace" font-size="11" font-weight="700">Spring Boot</text>
+    <rect x="156" y="0" width="74" height="26" rx="13" fill="#0b1224" stroke="#22d3ee" stroke-width="1"/>
+    <text x="193" y="17" text-anchor="middle" fill="#22d3ee" font-family="'JetBrains Mono', Courier New, monospace" font-size="11" font-weight="700">PostgreSQL</text>
+    <rect x="238" y="0" width="52" height="26" rx="13" fill="#0b1224" stroke="#22d3ee" stroke-width="1"/>
+    <text x="264" y="17" text-anchor="middle" fill="#22d3ee" font-family="'JetBrains Mono', Courier New, monospace" font-size="11" font-weight="700">React</text>
+    <rect x="298" y="0" width="46" height="26" rx="13" fill="#0b1224" stroke="#22d3ee" stroke-width="1"/>
+    <text x="321" y="17" text-anchor="middle" fill="#22d3ee" font-family="'JetBrains Mono', Courier New, monospace" font-size="11" font-weight="700">JWT</text>
+  </g>
+  <a href="https://github.com/shruthikuragayala-02/campusdesk" target="_blank">
+    <rect x="40" y="312" width="170" height="40" rx="12" fill="#0b1224" stroke="#22d3ee" stroke-width="1"/>
+    <text x="125" y="336" text-anchor="middle" fill="#22d3ee" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="13" font-weight="700" text-decoration="underline">View repository</text>
+  </a>
+</svg>

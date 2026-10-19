@@ -1,0 +1,28 @@
+name: Snake Animation
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  generate-snake:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate snake animation
+        uses: Platane/snk@v3
+        id: snake
+        with:
+          github_user_name: shruthikuragayala-02
+          outputs: |
+            dist/github-profile-snake.svg
+            dist/github-dark-mode-snake.svg
+
+      - name: Commit snake output
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Generate snake contribution animation
+          file_pattern: dist/*
+          branch: github-profile-snake

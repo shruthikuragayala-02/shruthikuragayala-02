@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="340" viewBox="0 0 1100 340" role="img" aria-labelledby="aboutTitle">
+  <title id="aboutTitle">About card with bio and currently panel</title>
+  <defs>
+    <linearGradient id="gBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070a17"/>
+      <stop offset="100%" stop-color="#0b1020"/>
+    </linearGradient>
+    <linearGradient id="gBorder" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="14" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="20" y="20" width="1060" height="300" rx="22" fill="url(#gBg)" stroke="url(#gBorder)" stroke-width="1" opacity="0.92"/>
+  <g filter="url(#softGlow)">
+    <circle cx="1000" cy="40" r="70" fill="#8b5cf6" opacity="0.10">
+      <animate attributeName="cy" values="40;70;40" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="180" cy="280" r="60" fill="#22d3ee" opacity="0.09">
+      <animate attributeName="cy" values="280;250;280" dur="9s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <!-- avatar placeholder (circle with initials) -->
+  <circle cx="150" cy="130" r="46" fill="#111827" stroke="#22d3ee" stroke-width="1.5" opacity="0.9"/>
+  <text x="150" y="136" text-anchor="middle" fill="#22d3ee" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="20" font-weight="800">SK</text>
+  <text x="220" y="100" fill="#f8fafc" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="22" font-weight="700">Shruthi Kuragayala</text>
+  <text x="220" y="128" fill="#22d3ee" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1">Aspiring Software Engineer &#8226; Hyderabad, Telangana, India</text>
+  <text x="220" y="160" fill="#94a3b8" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="14" font-weight="400" line-height="1.5">Second-year B.Tech Computer Science student at Keshav Memorial Engineering College (Osmania University). Passionate about backend engineering, reliable software, and exploring AI. Seeking a software engineering internship.</text>
+  <!-- currently panel -->
+  <g transform="translate(740,100)">
+    <rect x="0" y="0" width="300" height="170" rx="16" fill="#090c1a" stroke="rgba(148,163,184,0.14)" stroke-width="1"/>
+    <text x="20" y="30" fill="#f8fafc" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="15" font-weight="700">Currently</text>
+    <line x1="20" y1="36" x2="120" y2="36" stroke="#22d3ee" stroke-width="2"/>
+    <text x="20" y="72" fill="#cbd5e1" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="13" font-weight="600">Learning</text>
+    <text x="20" y="92" fill="#94a3b8" font-family="'JetBrains Mono', Courier New, monospace" font-size="12">Java &#183; Spring Boot &#183; DSA in C</text>
+    <text x="20" y="124" fill="#cbd5e1" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="13" font-weight="600">Building</text>
+    <text x="20" y="144" fill="#94a3b8" font-family="'JetBrains Mono', Courier New, monospace" font-size="12">CampusDesk &#183; PulseWatch</text>
+    <text x="20" y="172" fill="#cbd5e1" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="13" font-weight="600">Seeking</text>
+    <text x="20" y="192" fill="#94a3b8" font-family="'JetBrains Mono', Courier New, monospace" font-size="12">Software engineering internship</text>
+  </g>
+</svg>
