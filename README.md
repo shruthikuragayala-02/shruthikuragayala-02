@@ -20,7 +20,7 @@
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" src="assets/about.svg" width="100%" alt="About card with bio and a Currently panel showing Learning, Building, Seeking"/>
-    <img src="assets/about.svg" width="100%" alt="About card with bio and a Currently panel"/>
+    <img src="assets/about.svg" width="100%" alt="About card with bio and Currently panel"/>
   </picture>
 </div>
 
@@ -33,8 +33,8 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" src="assets/stack.svg" width="100%" alt="Tech stack bento grid categorized into Languages, Frontend, Backend, Database, DevOps, and Tools"/>
-    <img src="assets/stack.svg" width="100%" alt="Tech stack bento grid"/>
+    <source media="(prefers-color-scheme: dark)" src="assets/stack.svg" width="100%" alt="Tech stack grid categorized into Languages, Frontend, Backend, Database, DevOps, and Tools"/>
+    <img src="assets/stack.svg" width="100%" alt="Tech stack grid"/>
   </picture>
 </div>
 
@@ -53,67 +53,51 @@
 ## Featured Projects
 
 <div align="center">
-  <table>
-    <tr>
-      <td>
-        <picture>
-          <source media="(prefers-color-scheme: dark)" src="assets/campusdesk.svg" width="100%" alt="CampusDesk project card"/>
-          <img src="assets/campusdesk.svg" width="100%" alt="CampusDesk project card"/>
-        </picture>
-      </td>
-      <td>
-        <picture>
-          <source media="(prefers-color-scheme: dark)" src="assets/pulsewatch.svg" width="100%" alt="PulseWatch project card"/>
-          <img src="assets/pulsewatch.svg" width="100%" alt="PulseWatch project card"/>
-        </picture>
-      </td>
-    </tr>
-  </table>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" src="assets/campusdesk.svg" width="49%" alt="CampusDesk project card"/>
+    <img src="assets/campusdesk.svg" width="49%" alt="CampusDesk project card"/>
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" src="assets/pulsewatch.svg" width="49%" alt="PulseWatch project card"/>
+    <img src="assets/pulsewatch.svg" width="49%" alt="PulseWatch project card"/>
+  </picture>
 </div>
 
-### Architecture
+## Architecture
 
 <div align="center">
-  <table>
-    <tr>
-      <td>
-        <picture>
-          <source media="(prefers-color-scheme: dark)" src="assets/campusdesk-arch.svg" width="100%" alt="CampusDesk architecture: React to Spring Boot API to PostgreSQL"/>
-          <img src="assets/campusdesk-arch.svg" width="100%" alt="CampusDesk architecture diagram"/>
-        </picture>
-      </td>
-      <td>
-        <picture>
-          <source media="(prefers-color-scheme: dark)" src="assets/pulsewatch-arch.svg" width="100%" alt="PulseWatch architecture: scheduler to health checker to PostgreSQL to incident detector to alerts"/>
-          <img src="assets/pulsewatch-arch.svg" width="100%" alt="PulseWatch architecture diagram"/>
-        </picture>
-      </td>
-    </tr>
-  </table>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" src="assets/campusdesk-arch.svg" width="100%" alt="CampusDesk architecture: React to Spring Boot API to PostgreSQL"/>
+    <img src="assets/campusdesk-arch.svg" width="100%" alt="CampusDesk architecture diagram"/>
+  </picture>
+</div>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" src="assets/pulsewatch-arch.svg" width="100%" alt="PulseWatch architecture: scheduler to health checker to PostgreSQL to incident detector to alerts"/>
+    <img src="assets/pulsewatch-arch.svg" width="100%" alt="PulseWatch architecture diagram"/>
+  </picture>
 </div>
 
 ## GitHub Stats
 
 <div align="center">
-  <table>
-    <tr>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=shruthikuragayala-02&bg_color=050816&title_color=22d3ee&icon_color=8b5cf6&text_color=cbd5e1&border_color=1e293b&hide_border=true&show_icons=true&count_private=true" alt="GitHub stats for shruthikuragayala-02"/>
-      </td>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shruthikuragayala-02&bg_color=050816&title_color=22d3ee&icon_color=8b5cf6&text_color=cbd5e1&border_color=1e293b&hide_border=true&hide=html,css&layout=compact" alt="Top languages for shruthikuragayala-02"/>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <img src="https://streak-stats.demolab.com/?user=shruthikuragayala-02&background=050816&border=1e293b&ring=8b5cf6&fire=22d3ee&currStreakNum=cbd5e1&currStreakLabel=94a3b8&sideNums=94a3b8&sideLabels=94a3b8&dates=94a3b8&hide_border=true" alt="GitHub streak for shruthikuragayala-02"/>
-      </td>
-    </tr>
-  </table>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" src="https://github-readme-stats.vercel.app/api?username=shruthikuragayala-02&bg_color=050816&title_color=22d3ee&icon_color=8b5cf6&text_color=cbd5e1&border_color=1e293b&hide_border=true&show_icons=true&count_private=true" width="49%" alt="GitHub stats for shruthikuragayala-02"/>
+    <img src="https://github-readme-stats.vercel.app/api?username=shruthikuragayala-02&bg_color=050816&title_color=22d3ee&icon_color=8b5cf6&text_color=cbd5e1&border_color=1e293b&hide_border=true&show_icons=true&count_private=true" width="49%" alt="GitHub stats for shruthikuragayala-02"/>
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shruthikuragayala-02&bg_color=050816&title_color=22d3ee&icon_color=8b5cf6&text_color=cbd5e1&border_color=1e293b&hide_border=true&hide=html,css&layout=compact" width="49%" alt="Top languages for shruthikuragayala-02"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shruthikuragayala-02&bg_color=050816&title_color=22d3ee&icon_color=8b5cf6&text_color=cbd5e1&border_color=1e293b&hide_border=true&hide=html,css&layout=compact" width="49%" alt="Top languages for shruthikuragayala-02"/>
+  </picture>
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/shruthikuragayala-02/shruthikuragayala-02/github-profile-snake/dist/github-profile-snake.svg" alt="Snake contribution animation" width="100%"/>
+  <img src="https://streak-stats.demolab.com/?user=shruthikuragayala-02&background=050816&border=1e293b&ring=8b5cf6&fire=22d3ee&currStreakNum=cbd5e1&currStreakLabel=94a3b8&sideNums=94a3b8&sideLabels=94a3b8&dates=94a3b8&hide_border=true" width="100%" alt="GitHub streak for shruthikuragayala-02"/>
+</div>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/shruthikuragayala-02/shruthikuragayala-02/github-profile-snake/dist/github-dark-mode-snake.svg" alt="Snake contribution animation" width="100%"/>
 </div>
 
 <div align="center">

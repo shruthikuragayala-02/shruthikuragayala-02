@@ -1,35 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="280" viewBox="0 0 1060 280" role="img" aria-labelledby="certTitle">
-  <title id="certTitle">Certifications card: Cisco and IBM</title>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="240" viewBox="0 0 900 240" role="img" aria-labelledby="certTitle">
+  <title id="certTitle">Certifications card</title>
   <defs>
     <linearGradient id="certg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#070a17"/>
       <stop offset="100%" stop-color="#0b1020"/>
     </linearGradient>
   </defs>
-  <rect x="20" y="20" width="1020" height="240" rx="20" fill="url(#certg)" stroke="rgba(148,163,184,0.12)" stroke-width="1"/>
-  <text x="40" y="52" fill="#f8fafc" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="18" font-weight="800">Certifications</text>
-  <!-- Cisco -->
+  <rect x="20" y="20" width="860" height="200" rx="20" fill="url(#certg)" stroke="rgba(148,163,184,0.12)" stroke-width="1"/>
+  <text x="40" y="52" fill="#f8fafc" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="20" font-weight="800">Certifications</text>
   <a href="https://drive.google.com/file/d/1pyJ2b6jGz4VNS187iYN_XIm14sYgT-Qo/view?usp=sharing" target="_blank">
     <g transform="translate(40,80)">
-      <rect width="470" height="150" rx="14" fill="#090c1a" stroke="rgba(34,211,238,0.3)" stroke-width="1"/>
-      <rect x="20" y="20" width="120" height="28" rx="14" fill="#0b1224" stroke="#22d3ee" stroke-width="1"/>
-      <text x="80" y="37" text-anchor="middle" fill="#22d3ee" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="11" font-weight="700">Cisco Networking Academy</text>
-      <text x="20" y="76" fill="#f8fafc" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="15" font-weight="700">Introduction to Modern AI</text>
-      <text x="20" y="110" fill="#94a3b8" font-family="'JetBrains Mono', Courier New, monospace" font-size="12">Cisco &#8226; Badge/certificate</text>
-      <rect x="20" y="124" width="150" height="34" rx="10" fill="#0b1224" stroke="#22d3ee" stroke-width="1"/>
-      <text x="95" y="149" text-anchor="middle" fill="#22d3ee" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12" font-weight="700" text-decoration="underline">View certificate</text>
+      <rect x="0" y="0" width="430" height="120" rx="14" fill="#090c1a" stroke="rgba(34,211,238,0.3)" stroke-width="1"/>
+      <rect x="20" y="14" width="200" height="30" rx="15" fill="#0b1224" stroke="#22d3ee" stroke-width="1"/>
+      <text x="120" y="32" text-anchor="middle" fill="#22d3ee" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="14" font-weight="700">Cisco Networking Academy</text>
+      <text x="20" y="72" fill="#f8fafc" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="16" font-weight="700">Introduction to Modern AI</text>
+      <text x="20" y="100" fill="#94a3b8" font-family="'JetBrains Mono', Courier New, monospace" font-size="14">Cisco &#8226; Certificate</text>
+      <rect x="20" y="110" width="140" height="34" rx="10" fill="#0b1224" stroke="#22d3ee" stroke-width="1"/>
+      <text x="90" y="136" text-anchor="middle" fill="#22d3ee" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="14" font-weight="700" text-decoration="underline">View certificate</text>
     </g>
   </a>
-  <!-- IBM -->
   <a href="https://drive.google.com/file/d/1F-_HL8mrNY1xuSIAW7Q3jns7iG154Pmf/view?usp=sharing" target="_blank">
-    <g transform="translate(550,80)">
-      <rect width="470" height="150" rx="14" fill="#090c1a" stroke="rgba(139,92,246,0.3)" stroke-width="1"/>
-      <rect x="20" y="20" width="120" height="28" rx="14" fill="#0b1224" stroke="#8b5cf6" stroke-width="1"/>
-      <text x="80" y="37" text-anchor="middle" fill="#8b5cf6" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="11" font-weight="700">IBM</text>
-      <text x="20" y="76" fill="#f8fafc" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="15" font-weight="700">How IBM Bob and AI Tools Are Changing the Way Solutions Are Built</text>
-      <text x="20" y="110" fill="#94a3b8" font-family="'JetBrains Mono', Courier New, monospace" font-size="12">IBM &#8226; AI tools</text>
-      <rect x="20" y="124" width="150" height="34" rx="10" fill="#0b1224" stroke="#8b5cf6" stroke-width="1"/>
-      <text x="95" y="149" text-anchor="middle" fill="#8b5cf6" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12" font-weight="700" text-decoration="underline">View certificate</text>
+    <g transform="translate(470,80)">
+      <rect x="0" y="0" width="430" height="120" rx="14" fill="#090c1a" stroke="rgba(139,92,246,0.3)" stroke-width="1"/>
+      <rect x="20" y="14" width="80" height="30" rx="15" fill="#0b1224" stroke="#8b5cf6" stroke-width="1"/>
+      <text x="60" y="32" text-anchor="middle" fill="#8b5cf6" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="14" font-weight="700">IBM</text>
+      <text x="20" y="72" fill="#f8fafc" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="16" font-weight="700">How IBM Bob and AI Tools Are Changing</text>
+      <text x="20" y="94" fill="#f8fafc" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="16" font-weight="700">the Way Solutions Are Built</text>
+      <text x="20" y="122" fill="#94a3b8" font-family="'JetBrains Mono', Courier New, monospace" font-size="14">IBM &#8226; AI tools</text>
+      <rect x="20" y="110" width="140" height="34" rx="10" fill="#0b1224" stroke="#8b5cf6" stroke-width="1"/>
+      <text x="90" y="136" text-anchor="middle" fill="#8b5cf6" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="14" font-weight="700" text-decoration="underline">View certificate</text>
     </g>
   </a>
 </svg>

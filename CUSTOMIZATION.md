@@ -11,8 +11,8 @@ The palette is used in two spots:
 - Profile counter: `color=06b6d4`
 
 **SVG assets** (each `assets/*.svg`):
-- Primary text gradient: `#22d3ee` → `#8b5cf6` → `#06b6d4` (stop colors in `gText` / `gBorder` gradients)
-- Card background: `#070a17` → `#0b1020` (`gBg` / `edug` / `certg` / `footbg` / `cdBg` / `pwBg` / `pwg`)
+- Primary text gradient: `#22d3ee` â†’ `#8b5cf6` â†’ `#06b6d4` (stop colors in `gText` / `gBorder` gradients)
+- Card background: `#070a17` â†’ `#0b1020` (`gBg` / `edug` / `certg` / `footbg` / `cdBg` / `pwBg` / `pwg`)
 - Card border/stroke: `rgba(148,163,184,0.12)` and gradient borders `url(#gBorder)` / `url(#cdBorder)` / `url(#pwBorder)`
 - Glow orbs: `#8b5cf6` and `#22d3ee` with `opacity="0.09-0.11"`
 - Muted text: `#94a3b8`; heading text: `#f8fafc`
@@ -30,7 +30,7 @@ To re-theme globally, swap the three gradient stops (`#22d3ee`, `#8b5cf6`, `#06b
 
 ## 3. Update the links
 
-- `README.md` quick links: LinkedIn, GitHub, `mailto:` — edit the `href` attributes.
+- `README.md` quick links: LinkedIn, GitHub, `mailto:` â€” edit the `href` attributes.
 - Profile counter badge: change `username=shruthikuragayala-02` in the komarev URL.
 - Certifications: edit the two Google Drive `href` URLs in `assets/certifications.svg`.
 - Project repository links: edit the `<a href>` in `assets/campusdesk.svg` and `assets/pulsewatch.svg` (and any new card).

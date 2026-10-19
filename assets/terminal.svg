@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="300" viewBox="0 0 1100 300" role="img" aria-labelledby="termTitle">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="280" viewBox="0 0 900 280" role="img" aria-labelledby="termTitle">
   <title id="termTitle">Animated terminal card showing whoami, role, stack, focus</title>
   <defs>
     <linearGradient id="gBg" x1="0" y1="0" x2="1" y2="1">
@@ -14,24 +15,23 @@
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
-  <rect x="20" y="20" width="1060" height="260" rx="18" fill="url(#gBg)" stroke="rgba(148,163,184,0.12)" stroke-width="1"/>
-  <rect x="20" y="20" width="1060" height="38" rx="18" fill="url(#gHead)"/>
-  <path d="M20 58 H1080 V280 H20 Z" fill="none"/>
+  <rect x="20" y="20" width="860" height="240" rx="18" fill="url(#gBg)" stroke="rgba(148,163,184,0.12)" stroke-width="1"/>
+  <rect x="20" y="20" width="860" height="38" rx="18" fill="url(#gHead)"/>
   <circle cx="46" cy="39" r="6" fill="#ef4444" opacity="0.85"/>
   <circle cx="66" cy="39" r="6" fill="#f59e0b" opacity="0.85"/>
   <circle cx="86" cy="39" r="6" fill="#22c55e" opacity="0.85"/>
-  <text x="110" y="42" fill="#94a3b8" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="12" font-weight="600">terminal â€” profile</text>
+  <text x="110" y="42" fill="#94a3b8" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="14" font-weight="600">terminal &#8212; profile</text>
   <g filter="url(#softGlow)">
-    <circle cx="1020" cy="40" r="50" fill="#8b5cf6" opacity="0.09">
+    <circle cx="820" cy="40" r="50" fill="#8b5cf6" opacity="0.07">
       <animate attributeName="cy" values="40;68;40" dur="8s" repeatCount="indefinite"/>
     </circle>
   </g>
-  <g font-family="'JetBrains Mono', Courier New, monospace" font-size="15" fill="#cbd5e1" text-anchor="start">
+  <g font-family="'JetBrains Mono', Courier New, monospace" font-size="16" fill="#cbd5e1" text-anchor="start">
     <text x="60" y="90">
       <animate attributeName="opacity" dur="0.1" begin="0s" values="0;1"/>
       shruthi@github:~$ whoami
     </text>
-    <text x="60" y="114" fill="#22d3ee">
+    <text x="60" y="116" fill="#22d3ee">
       <animate attributeName="opacity" dur="0.1" begin="0.7s" values="0;1"/>
       Shruthi Kuragayala
     </text>
@@ -39,28 +39,28 @@
       <animate attributeName="opacity" dur="0.1" begin="1.6s" values="0;1"/>
       shruthi@github:~$ role
     </text>
-    <text x="60" y="166" fill="#8b5cf6">
+    <text x="60" y="168" fill="#8b5cf6">
       <animate attributeName="opacity" dur="0.1" begin="2.3s" values="0;1"/>
-      Aspiring Software Engineer  |  Backend Developer  |  AI Explorer
+      Aspiring Software Engineer &#8226; Backend Developer &#8226; AI Explorer
     </text>
     <text x="60" y="194">
       <animate attributeName="opacity" dur="0.1" begin="3.2s" values="0;1"/>
       shruthi@github:~$ stack
     </text>
-    <text x="60" y="218" fill="#06b6d4">
+    <text x="60" y="220" fill="#06b6d4">
       <animate attributeName="opacity" dur="0.1" begin="3.9s" values="0;1"/>
-      Java  Â·  Spring Boot  Â·  React  Â·  PostgreSQL  Â·  Docker  Â·  Git  Â·  GitHub Actions
+      Java &#8226; Spring Boot &#8226; React &#8226; PostgreSQL &#8226; Docker &#8226; Git &#8226; GitHub Actions
     </text>
     <text x="60" y="246">
       <animate attributeName="opacity" dur="0.1" begin="4.8s" values="0;1"/>
       shruthi@github:~$ focus
     </text>
-    <text x="60" y="270" fill="#22d3ee">
+    <text x="60" y="272" fill="#22d3ee">
       <animate attributeName="opacity" dur="0.1" begin="5.5s" values="0;1"/>
-      Reliable backend systems  Â·  SLA tracking  Â·  Health monitoring
+      Reliable backend systems &#8226; SLA tracking &#8226; Health monitoring
     </text>
   </g>
-  <text x="60" y="288" fill="#22d3ee" font-family="'JetBrains Mono', Courier New, monospace" font-size="15">
+  <text x="60" y="270" fill="#22d3ee" font-family="'JetBrains Mono', Courier New, monospace" font-size="16">
     _
     <animate attributeName="opacity" values="1;0" dur="0.9s" repeatCount="indefinite"/>
   </text>
